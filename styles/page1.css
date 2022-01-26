@@ -1,0 +1,47 @@
+@media screen and (max-width: 1080) and (min-width: 420px) {
+    nav, main{
+        width: 100%;
+        height: auto;
+    }
+}
+
+body {
+    font-family: Arial;
+}
+
+nav, main {
+    background-color: skyblue;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+nav{
+    padding: 2%;
+}
+
+.navHeading {
+    margin-top: -2em;
+    margin-left: 1em;
+    float: left;
+    font-family: Courier New;
+    line-height: 0;
+}
+
+.navLinks{
+    float: right;
+}
+
+.navLinks a:hover{
+    text-decoration: underline;
+}
+
+main {
+    margin: 5px auto;
+    padding: 25%;
+}
+
+
+
+
+
+
