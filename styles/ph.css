@@ -47,5 +47,8 @@ nav{
 main {
     margin: 5px auto;
     font-family: Goudy Old Style;
-    align-self: top;
+}
+
+.twoButtonResume{
+    align-items: center;
 }
