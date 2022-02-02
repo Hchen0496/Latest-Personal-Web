@@ -1,4 +1,4 @@
-@media screen and (max-width: 1080) and (min-width: 720px) {
+@media screen and (max-width: 1080px) {
     body{
         width: 100%;
     }
@@ -11,7 +11,7 @@ nav, main {
 }
 
 nav{
-    padding: 0.01%;
+    padding: 1vh;
     font-family: Trebuchet MS;
     overflow: hidden;
 }
@@ -47,5 +47,4 @@ nav{
 main {
     margin: 5px auto;
     font-family: Goudy Old Style;
-    align-self: top;
 }
