@@ -47,4 +47,11 @@ nav{
 main {
     margin: 5px auto;
     font-family: Goudy Old Style;
+    text-align: center;
+}
+
+.threeButtonResume{
+    text-decoration: none;
+    padding: 1vh 2vh;
+    font-size: 80px;
 }
