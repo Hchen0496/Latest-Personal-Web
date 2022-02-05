@@ -1,9 +1,10 @@
-@media screen and (max-width: 1080px) {
+@media screen {
     body{
-        width: 100%;
+        width: auto;
     }
     main{
-        padding-bottom: 90vh;
+        margin-top: 5px;
+        padding-bottom: 50vh;
     }
 }
 
@@ -14,7 +15,7 @@ nav, main {
 }
 
 nav{
-    padding: 1vh;
+    padding: auto 1vh;
     font-family: Trebuchet MS;
     overflow: hidden;
 }
@@ -23,12 +24,12 @@ nav{
     position: absolute;
     float: left;
     line-height: 0;
+    margin-left: 5px;
 }
 
 .navLinks{
-    float: right;
-    color:antiquewhite;
-    font-size: 50px;
+    float: right;  
+    font-size: 5px;
 }
 
 .navLinks a{
@@ -36,10 +37,12 @@ nav{
 }
 .navLinks a:hover{
     background-color: rgb(228, 133, 133);
+    border-radius: 10px;
 }
 
 .active{
     background-color: rgb(39, 171, 201);
+    border-radius: 10px;
 }
 
 #home, #ph, #project, #contact {
@@ -48,14 +51,41 @@ nav{
 }
 
 main {
-    margin: 5px auto;
     font-family: Goudy Old Style;
+    font-size: 50px;
     text-align: center;
-
 }
 
-.threeButtonResume{
+.threeButtonResume a{
     text-decoration: none;
-    padding-top: 5vh auto;
-    font-size: 80px;
 }
+
+.threeButtonResume a:hover{
+    background-color: white;
+    border-radius: 1px;
+}
+
+.mainActive{
+    background-color: rgb(39, 171, 201);
+    border-radius: 10px;
+}
+
+.resumePage{
+    margin: 5px 55px;
+    border: 5px solid;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: scroll;
+    line-height: 0;
+}
+
+#h2Company, #h2Position {
+    text-align: left;
+}
+
+#h3Location, #h3Date{
+    text-align: right;
+    float: right;
+}
+

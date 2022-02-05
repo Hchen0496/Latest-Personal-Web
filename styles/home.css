@@ -1,6 +1,10 @@
-@media screen and (max-width: 1080) {
+@media screen {
     body{
-        width: 100%;
+        width: auto;
+    }
+    main{
+        margin-top: 5px;
+        padding-bottom: 22.5vh;
     }
 }
 
@@ -11,7 +15,7 @@ nav, main {
 }
 
 nav{
-    padding: 1vh;
+    padding: auto 1vh;
     font-family: Trebuchet MS;
     overflow: hidden;
 }
@@ -20,12 +24,12 @@ nav{
     position: absolute;
     float: left;
     line-height: 0;
+    margin-left: 5px;
 }
 
 .navLinks{
-    float: right;
-    color:antiquewhite;
-    font-size: 50px;
+    float: right;  
+    font-size: 5px;
 }
 
 .navLinks a{
@@ -33,10 +37,12 @@ nav{
 }
 .navLinks a:hover{
     background-color: rgb(228, 133, 133);
+    border-radius: 10px;
 }
 
 .active{
     background-color: rgb(39, 171, 201);
+    border-radius: 10px;
 }
 
 #home, #ph, #project, #contact {
@@ -45,17 +51,15 @@ nav{
 }
 
 main {
-    margin: 5px auto;
     font-family: Goudy Old Style;
-    align-self: top;
 }
 
 #partOne{
-    padding: 1vh 2vh;
-    font-size: 80px;
+    font-size: 70px;
+    Margin: 10px;
 }
 
 #partTwo{
-    padding: 1vh 2vh 11.5vh;
     font-size: 40px;
+    Margin: 10px;
 }
