@@ -2,6 +2,9 @@
     body{
         width: 100%;
     }
+    main{
+        padding-bottom: 90vh;
+    }
 }
 
 nav, main {
@@ -48,7 +51,7 @@ main {
     margin: 5px auto;
     font-family: Goudy Old Style;
     text-align: center;
-    padding-bottom: 90vh;
+
 }
 
 .threeButtonResume{
