@@ -48,10 +48,11 @@ main {
     margin: 5px auto;
     font-family: Goudy Old Style;
     text-align: center;
+    padding-bottom: 90vh;
 }
 
 .threeButtonResume{
     text-decoration: none;
-    padding: 1vh 2vh;
+    padding-top: 5vh auto;
     font-size: 80px;
 }
